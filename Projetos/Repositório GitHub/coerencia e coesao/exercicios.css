@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    height: auto;
+    background-attachment: fixed;
+}
+
+body {
+    text-align: center;
+    background-color: #003049;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: #003049;
+}
+
+div {
+    background-color: #815E5B;
+    height: auto;
+    margin-left: 170px;
+    margin-right: 170px;
+    box-shadow: 2px;
+    border-radius: 2px 2px 2px 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#resposta > p {
+    display: none;
+}
+
+#resposta:hover > p {
+    display: block;
+}

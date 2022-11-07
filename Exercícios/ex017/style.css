@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+h1, h2, p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* Medidas absolutas: cm, mm, in, px, pt, pc
+
+    Medidas relativas: em, ex, rem, vw, vh, % 
+    1px geralmente = 16px */
+    font-weight: 900;
+    /* shorthand font
+    - font-style -> font-weight -> font-size -> font-family */
+}

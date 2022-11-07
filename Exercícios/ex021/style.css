@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    border: groove 10px red;
+    padding: 20px;
+    margin: 15px;
+    outline: dashed 10px blue;
+}
+
+a {
+    border: dashed 2px rebeccapurple;
+}
