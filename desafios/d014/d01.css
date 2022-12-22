@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: fit-content;
+}
+
+thead th {
+    color: white;
+    background-color: gray;
+    text-align: center;
+}
+
+td.num {
+    text-align: center;
+}
+
+tr.mediarow > td {
+    color: white;
+    background-color: gray;
+}
+
+tr.mediarow > th {
+    color: white;
+    background-color: gray;
+    text-align: left;
+}
+
+td, th {
+    border: solid 1px black;
+    padding: 5px;
+}
