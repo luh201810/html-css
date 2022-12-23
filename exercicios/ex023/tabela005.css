@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: fit-content;
+}
+
+th, td {
+    border: solid 1.5px blueviolet;
+    padding: 10px;
+    text-align: center;
+}
+
+caption {
+    font-size: 1.4em;
+    font-weight: bolder;
+    border: solid 1.5px blue;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+
+tr.destaquerow {
+    background-color: blue;
+    color: white;
+}
+
+col#cprof {
+    background-color: blue;
+}
